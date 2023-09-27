@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="push">
+        <nav class="container">
+<a href="#" class="Railway">Railway/Timetable</a>
+<a href="#" class="Flight">Flight</a>
+<a href="#" class="Hotel">Hotel</a>
+<a href="#" class="Apartment">Apartment</a>
+<a href="#" class="car">Car rental</a>
+        </nav>
+    </div>
+    
+    <div class="india">
+        <div class="From">
+            <p>From</p>
+            <input type="text" placeholder="Enter location"
+            spellcheck="false">
+        </div>
+        <div class="To">
+            <p>To</p>
+            <input type="text" placeholder="Enter location"
+            spellcheck="false">
+        </div>
+        <div class="Arrival">
+            <p>Arrival *</p>
+        </div>
+        <div class="Time">
+            <p class="P">Time</p>
+            <p class="t">HH:MM</p>
+        </div>
+        <button class="Connection">
+            Connection
+        </button>
+        
+        
+        
+    </div>
+    <div class="usa">
+        <div class="Enter">
+            <input type="text" placeholder="Enter location/Region"
+            spellcheck="false">
+            <button class="search">search</button>
+        </div>
+        <div class="Arrival">
+            <p>Arrival</p>
+            <input type="text" placeholder="Enter Arrival date"
+            spellcheck="false">
+        </div>
+        <div class="Departure">
+            <p>Departure</p>
+            <input type="text" placeholder="Enter Departure date"
+            spellcheck="false">
+        </div>
+        
+        
+<button class="Accomodation">
+   Find Accomodation
+</button>
+        
+
+    </div>
+    <div class="asia">
+    
+        <div class="Enter">
+            <input type="text" placeholder="Enter location/Region"
+            spellcheck="false">
+            <button class="search">search</button>
+        </div>
+        <div class="Arrival">
+            <p>Arrival</p>
+            <input type="text" placeholder="Enter Arrival date"
+            spellcheck="false">
+        </div>
+        <div class="Departure">
+            <p>Departure</p>
+            <input type="text" placeholder="Enter Departure date"
+            spellcheck="false">
+        </div>
+        
+<button class="Apartments">
+   Find Apartment
+</button>
+</div>
+<div class="aus">
+<div class="ban">
+<img   src="https://bl-i.thgim.com/public/news/o6vg71/article65701652.ece/alternates/FREE_1200/indigo.png" height="250px">
+</div>
+        
+<div class="sri">
+<img src="https://images.hindustantimes.com/img/2023/01/04/550x309/AIR-INDIA-PLANES-BOEING-AIRBUS-1_1646107781036_1672826974845_1672826974845.JPG" height="250px">
+</div>
+
+</div>
+    
+    
+
+
+    <script>
+        const railway=document.querySelector('.Railway');
+        const india=document.querySelector('.india');
+        const flight=document.querySelector('.Flight');
+        const hotel=document.querySelector('.Hotel');
+        const usa=document.querySelector('.usa');
+        const asia=document.querySelector('.asia');
+        const Apartment=document.querySelector('.Apartment');
+        const aus=document.querySelector('.aus');
+        railway.onclick = function() {
+    india.classList.add('active');
+    usa.classList.remove('active');
+    asia.classList.remove('active');
+    aus.classList.remove('active');
+
+ }
+ flight.onclick = function() {
+    aus.classList.add('active');
+    india.classList.remove('active');
+    usa.classList.remove('active');
+    asia.classList.remove('active');
+
+ }
+ hotel.onclick = function() {
+    usa.classList.add('active');
+    india.classList.remove('active');
+    asia.classList.remove('active');
+ aus.classList.remove('active');
+ }
+ Apartment.onclick = function() {
+    asia.classList.add('active');
+    india.classList.remove('active');
+    usa.classList.remove('active');
+    aus.classList.remove('active');
+
+ }
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>

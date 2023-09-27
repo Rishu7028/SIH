@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}  
+
+.container-t{
+    width: 100%;
+    background-image:linear-gradient(90deg, #090112, #07959a);
+    padding: 5px;
+    font-size: 25px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 300;
+    display: flex;
+    align-content: center;
+
+}
+.container-t a{
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+   
+    color:rgb(242, 242, 242);
+}
+ .Railway{
+    border: 2px solid rgb(0, 6, 5);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 10px;
+
+}
+.push a:hover
+{
+   background-color: #07959a;
+}
+
+
+
+
+.Flight{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 10px;
+}
+.Hotel{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 10px;
+}
+.Apartment{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+.car{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(2, 2, 2);
+    padding: 10px;
+}
+.From{
+    color: aliceblue;
+background: #020004;
+padding: 15px;
+margin-right: 1300px;
+border: 2px solid rgb(224, 236, 235);
+margin-left: 13px;
+}
+.From input{
+    padding:5px;
+}
+.From p{
+    font-size:30px;
+}
+.From input{
+    color:rgb(241, 241, 241);
+    background: #020004;
+}
+.To{
+    
+        color: aliceblue;
+    background: #000000;
+    padding: 15px;
+    margin-right: 1050px;
+    margin-top:-97px;
+    margin-left: 229px;
+    border: 2px solid rgb(224, 236, 235);
+    
+    
+}
+.To p{
+    font-size:30px;
+}
+.To input{
+    color:rgb(241, 241, 241);
+    background: #000000;
+}
+.To input{
+    padding:5px;
+}
+.Arrival{
+    color: aliceblue;
+background: #020004;
+padding: 15px;
+margin-right: 1300px;
+border: 2px solid rgb(224, 236, 235);
+margin-top: 25px;
+margin-left:12px ;
+}
+
+.Arrival p{
+    font-size:30px;
+    padding: 13px;;
+}
+.Time{
+    
+    color: aliceblue;
+background: #000000;
+padding: 27px;
+margin-right: 1050px;
+margin-top:-94px;
+margin-left: 229px;
+border: 2px solid rgb(224, 236, 235);
+font-size:16px;
+
+}
+.Time .t{
+color:aquamarine;
+font-size: 10px;
+}
+.Time .P {
+    font-size:23px;
+}
+.Connection{
+    color: aliceblue;
+background-image:linear-gradient(90deg, #090112, #07959a);;
+padding: 15px;
+margin-right: 1300px;
+border: 2px solid rgb(224, 236, 235);
+margin-top: 25px;
+box-shadow: 0 0 10px rgb(0, 0, 0);
+font-size:25px;
+margin-left: 13px;
+border-radius: 20px;
+
+}
+.india{
+
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    margin-top: 50px;
+    }
+
+.india.active{
+    opacity:1;
+    pointer-events: auto;
+    
+ 
+}
+.Enter input{
+   padding: 26px; 
+   background: black;
+   font-size:20px;
+   margin-right: 25px;
+color:aliceblue;
+margin-left:8px;
+}
+.Enter button{
+    padding:29px;
+    color: rgb(0, 0, 0);
+    
+}
+.Enter{
+
+padding:15px;
+margin-right:1000px;
+margin-left: -8px;
+
+justify-content:space-between;
+
+margin-top: -280px;
+
+}
+.Arrival{
+    color: aliceblue;
+background: #020004;
+padding: 5px;
+margin-right: 1300px;
+border: 1px solid rgb(224, 236, 235);
+}
+
+.Arrival input{
+    padding:8px;
+}
+.Arrival p{
+    font-size:30px;
+}
+.Arrival input{
+    color:rgb(241, 241, 241);
+    background: #020004;
+}
+.Departure{
+    
+    color: aliceblue;
+background: #000000;
+padding: 8px;
+margin-right: 1050px;
+margin-top:-107px;
+margin-left: 229px;
+border: 1px solid rgb(224, 236, 235);
+
+
+}
+
+.Departure input{
+color:rgb(241, 241, 241);
+background: #000000;
+}
+.Departure input{
+padding:8px;
+}
+.Departure p{
+    font-size: 30px;
+    padding:10px;
+}
+.Accomodation{
+    color: aliceblue;
+background-image:linear-gradient(90deg, #090112, #079a67);;
+padding: 20px;
+margin-right: 1300px;
+border: 2px solid rgb(224, 236, 235);
+margin-top: 25px;
+box-shadow: 0 0 10px rgb(0, 0, 0);
+font-size:25px;
+margin-left: 13px;
+border-radius: 20px;
+}
+.usa{
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    
+}
+
+
+
+
+.usa.active{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.Apartments{
+    color: aliceblue;
+background-image:linear-gradient(90deg, #090112, #9a077d);;
+padding: 20px;
+margin-right: 1300px;
+border: 2px solid rgb(224, 236, 235);
+margin-top: 25px;
+box-shadow: 0 0 10px rgb(0, 0, 0);
+font-size:25px;
+margin-left: 13px;
+border-radius: 20px;
+}
+.asia{
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    margin-top: -350px;
+
+}
+
+
+
+.asia.active{
+    opacity:1;
+    pointer-events: auto;
+}
+.ban{
+    margin-left: 20px;
+    margin-top: -300px;
+
+    
+}
+.sri{
+    margin-left: 500px;
+    margin-top: -250px;
+
+    
+    
+}
+.aus{
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    
+}
+.aus.active{
+    opacity:1;
+    pointer-events: auto;
+}
+
+
+    
